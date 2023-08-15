@@ -252,7 +252,10 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
-/* ============= PROJECT CSS =============== */
+.titleBamba {
+  margin: 3rem auto;
+  text-align: center;
+} /* ============= PROJECT CSS =============== */
 
 .jobs-center {
   width: 80vw;

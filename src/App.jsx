@@ -30,16 +30,20 @@ const App = () => {
     )
   }
   return (
-    <section className="jobs-center">
-      {/* button container */}
-      <BtnContainer
-        jobs={jobs}
-        currentItem={currentItem}
-        setCurrentItem={setCurrentItem}
-      />
-      {/* job info */}
-      <JobInfo jobs={jobs} currentItem={currentItem} />
-    </section>
+    <>
+      {/* Title à supprimer si besoin */}
+      <h1 className="titleBamba">"BAMBA - React tabs component"</h1>
+      <section className="jobs-center">
+        {/* button container */}
+        <BtnContainer
+          jobs={jobs}
+          currentItem={currentItem}
+          setCurrentItem={setCurrentItem}
+        />
+        {/* job info */}
+        <JobInfo jobs={jobs} currentItem={currentItem} />
+      </section>
+    </>
   )
 }
 export default App
